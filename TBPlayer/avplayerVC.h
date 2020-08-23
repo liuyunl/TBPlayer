@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface avplayerVC : UIViewController
-
+@property (nonatomic, strong) NSString *urlStr;
 @end

@@ -14,7 +14,7 @@
 
 @interface ViewController ()
 
-
+@property(strong, nonatomic)UITextField *tf;
 
 @end
 
@@ -26,7 +26,12 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    CGFloat width = UIScreen.mainScreen.bounds.size.width-16;
+    _tf = [[UITextField alloc] initWithFrame: CGRectMake(8, 60, width, 30)];
+    _tf.placeholder = @"请输入网址";
+    _tf.textAlignment = NSTextAlignmentCenter;
+    _tf.clearButtonMode = UITextFieldViewModeWhileEditing;
+    [self.view addSubview:_tf];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 100, 100);
@@ -41,7 +46,9 @@
 
 - (void)ButtonClick
 {
+    
     avplayerVC *vc = [avplayerVC new];
+    vc.urlStr = _tf.text;
     
     [self presentViewController:vc animated:NO completion:nil];
 }

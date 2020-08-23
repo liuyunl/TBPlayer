@@ -170,7 +170,7 @@
 				TargetAttributes = {
 					1D4EE0E61DDBFF0800DB2892 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VN226642G5;
+						DevelopmentTeam = 66438U4Q5C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -339,11 +339,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VN226642G5;
+				DEVELOPMENT_TEAM = 66438U4Q5C;
 				INFOPLIST_FILE = TBPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.TBPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suife.TBPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,11 +352,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VN226642G5;
+				DEVELOPMENT_TEAM = 66438U4Q5C;
 				INFOPLIST_FILE = TBPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.TBPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suife.TBPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
