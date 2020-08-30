@@ -48,7 +48,7 @@
 {
     
     avplayerVC *vc = [avplayerVC new];
-    vc.urlStr = _tf.text;
+    //vc.urlStr = _tf.text;
     
     [self presentViewController:vc animated:NO completion:nil];
 }

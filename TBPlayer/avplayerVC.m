@@ -43,10 +43,10 @@
     
     NSURL *localURL = [NSURL fileURLWithPath:movePath];
     
-    NSURL *url2 = [NSURL URLWithString:@"http://zyvideo1.oss-cn-qingdao.aliyuncs.com/zyvd/7c/de/04ec95f4fd42d9d01f63b9683ad0"];
-    if (_urlStr != nil) {
-        url2 = [NSURL URLWithString:_urlStr];
-    }
+    NSURL *url2 = [NSURL URLWithString:@"https://3.ddyunbo.com//share//i9y0UWo4WBSxIxuB"];
+//    if (_urlStr != nil) {
+//        url2 = [NSURL URLWithString:_urlStr];
+//    }
     
     
     [[TBPlayer sharedInstance] playWithUrl:url2 showView:self.showView];
